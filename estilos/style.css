@@ -1,2 +1,48 @@
 @charset "UTF-8";
 
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: orangered;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+section#login{
+    background-color: white;
+    width: 350px;
+    height: 440px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+div#imagem{
+    background: orange url(../imagem/pexels-tino-coelho-308723248-30626526.jpg) no-repeat;
+    height: 180px;
+    background-size: cover;
+    display: block;
+    
+}
+
+section#login > div#formulario{
+    padding: 20px;
+    text-align: justify;
+    display: block;
+}
