@@ -71,7 +71,7 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: orange;
+    background-color: orangered;
     color: white;
     border: none;
     border-radius: 10px;
@@ -87,8 +87,8 @@ form > a.botao {
     font-size: 1.09em;
     height: 35px;
     background-color: rgba(255, 255, 255, 0.473);
-    color: orange;
-    border: 1px solid orange;
+    color: orangered;
+    border: 1px solid orangered ;
     border-radius: 10px;
     text-decoration: none;
     padding-top: 5px;
@@ -107,14 +107,13 @@ form > a.botao:hover{
 
 form > div.campo {
     background-color: orangered;
-    height: 40px;
+    height: 45px;
     border-radius: 7px;
     margin: 5px 0px;
 }
 
 div.campo > i {
     color: white;
-    background-color: black;
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -122,9 +121,10 @@ div.campo > i {
 
 div.campo > input {
     background-color: rgb(255, 255, 255);
-    font-size: 1em;
-    width: ;
-    height: 100%;
+    font-size: 0.8em;
+    width: calc(100% - 58px);
+    height: 95%;
+    transform: translateY(-10px);
     border: none;
     border-radius: 7px;
     

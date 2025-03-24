@@ -37,7 +37,14 @@
       background-image: linear-gradient(to top, orangered, rgba(0, 0, 0, 0.404));
     }
 
-
+      div.campo > input {
+        font-size: 0.8em;
+        width: calc(100% - 800px);
+        height: 95%;
+        transform: translateY(-10px);
+        border: none;
+        border-radius: 7px;
+      }
 }
 
   @media screen and (min-width: 1024px)  {
